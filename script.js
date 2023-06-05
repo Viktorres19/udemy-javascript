@@ -34,3 +34,21 @@ console.log(typeof Null)*/
 /*const price = 100
 price = 50 // Uncaught TypeError: Assignment to constant variable.
 console.log(price)*/
+
+/*11. Math object*/
+//console.log(Math) //Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+// console.log(Math.PI)
+// Find perimeter of circle with radius 10
+// console.log(2 * Math.PI * 10) //62.8
+// console.log(Math.abs(-20)) // 20
+// console.log(Math.pow(7,2)) // 49
+// To find square root:
+// console.log(Math.pow(81,0.5)) // 9
+// console.log(Math.round(1.8)) // 2
+// console.log(Math.floor(1.9)) // 1
+// console.log(Math.ceil(1.1)) // 2
+// console.log(Math.random()) // random from zero to 1
+//to find max number
+// console.log(Math.max(100, 200, 108)) // 200
+// console.log(Math.min(2,3))
+
