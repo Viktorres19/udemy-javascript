@@ -22,10 +22,15 @@ name = "John"
 console.log(name)*/
 
 /*Types of variables*/
-let string = "String" // String
+/*let string = "String" // String
 let status = true //Boolean
 let number = 28 // number
 let Undefined // undefined
 console.log(typeof Undefined)
 let Null = null //object
-console.log(typeof Null)
+console.log(typeof Null)*/
+
+/* Const variable declaration */
+/*const price = 100
+price = 50 // Uncaught TypeError: Assignment to constant variable.
+console.log(price)*/
