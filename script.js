@@ -35,7 +35,7 @@ console.log(typeof Null)*/
 price = 50 // Uncaught TypeError: Assignment to constant variable.
 console.log(price)*/
 
-/*11. Math object*/
+/*11-12. Math object*/
 //console.log(Math) //Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
 // console.log(Math.PI)
 // Find perimeter of circle with radius 10
@@ -52,3 +52,17 @@ console.log(price)*/
 // console.log(Math.max(100, 200, 108)) // 200
 // console.log(Math.min(2,3))
 
+/*13. String Methods*/
+//concatenation
+let name = "John"
+let lastname = "Deer"
+console.log(`${name} ${lastname}`)
+let nameLastname = `${name} ${lastname}`
+console.log(nameLastname)
+console.log(nameLastname.length) //9
+let nameUpper = name.toUpperCase()
+console.log(nameUpper) //JOHN
+let nameLower = name.toLowerCase()
+console.log(nameLower) //john
+let changed = nameLower.replace("j", "r")
+console.log(changed)
