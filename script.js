@@ -9,7 +9,7 @@
 /*console.log(2*(3+5)**2)*/ //128
 
 /*variables*/
-let marks
+/*let marks
 
 marks = 50
 console.log(marks)
@@ -19,4 +19,13 @@ console.log(marks)
 let name
 
 name = "John"
-console.log(name)
+console.log(name)*/
+
+/*Types of variables*/
+let string = "String" // String
+let status = true //Boolean
+let number = 28 // number
+let Undefined // undefined
+console.log(typeof Undefined)
+let Null = null //object
+console.log(typeof Null)
