@@ -54,7 +54,7 @@ console.log(price)*/
 
 /*13. String Methods*/
 //concatenation
-let name = "John"
+/*let name = "John"
 let lastname = "Deer"
 console.log(`${name} ${lastname}`)
 let nameLastname = `${name} ${lastname}`
@@ -65,4 +65,18 @@ console.log(nameUpper) //JOHN
 let nameLower = name.toLowerCase()
 console.log(nameLower) //john
 let changed = nameLower.replace("j", "r")
-console.log(changed)
+console.log(changed)*/
+
+/*14. String Index*/
+/* let name = "John"
+console.log(name[0]) // J
+//to find last character of a string:
+console.log(name[name.length-1]) */
+
+/*15. String Index Methods*/
+//pick 1st four letters
+/* let a = "Computer"
+console.log(a.substring(0, 4)) // Comp (start, ammount of letter)
+console.log(a.slice(0, 4)) // Comp (start, ammount of letter) the same */
+let names = "John,Rob,Tim,Newton"
+console.log(names.split(",")) //made array from string divided comas ['John', 'Rob', 'Tim', 'Newton']
