@@ -78,5 +78,13 @@ console.log(name[name.length-1]) */
 /* let a = "Computer"
 console.log(a.substring(0, 4)) // Comp (start, ammount of letter)
 console.log(a.slice(0, 4)) // Comp (start, ammount of letter) the same */
-let names = "John,Rob,Tim,Newton"
-console.log(names.split(",")) //made array from string divided comas ['John', 'Rob', 'Tim', 'Newton']
+/*let names = "John,Rob,Tim,Newton"
+console.log(names.split(","))*/ //made array from string divided comas ['John', 'Rob', 'Tim', 'Newton']
+
+/*16. String Template Literals*/
+let a = `Apple`
+let name = "John"
+let message = `Welcome to our website ${name}`
+console.log(message) //Welcome to our website John John
+let b = `The total value is ${10+2}`
+console.log(b) //12
