@@ -90,6 +90,16 @@ let b = `The total value is ${10+2}`
 console.log(b) */ //12
 
 /*17. Equality operator*/
-console.log(2 == 2) //true
+/* console.log(2 == 2) //true
 console.log(2 == "2") //true
-console.log(2 === "2") //false (check not only value but type)
+console.log(2 === "2") */ //false (check not only value but type)
+
+/*18. Comparison operator*/
+console.log(20>10) //true
+console.log(20>50) //false
+console.log(10>=10) //true
+console.log(10>=50) //false
+console.log(25<=12) //false
+console.log(10<=10) //true
+console.log(10!=10) //false
+console.log(10!=20) //false
