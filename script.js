@@ -82,9 +82,14 @@ console.log(a.slice(0, 4)) // Comp (start, ammount of letter) the same */
 console.log(names.split(","))*/ //made array from string divided comas ['John', 'Rob', 'Tim', 'Newton']
 
 /*16. String Template Literals*/
-let a = `Apple`
+/* let a = `Apple`
 let name = "John"
 let message = `Welcome to our website ${name}`
 console.log(message) //Welcome to our website John John
 let b = `The total value is ${10+2}`
-console.log(b) //12
+console.log(b) */ //12
+
+/*17. Equality operator*/
+console.log(2 == 2) //true
+console.log(2 == "2") //true
+console.log(2 === "2") //false (check not only value but type)
