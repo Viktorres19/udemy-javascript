@@ -105,7 +105,7 @@ console.log(10!=10) //false
 console.log(10!=20)*/ //false
 
 /*19. Type conversion*/
-let a = "Apple"
+/*let a = "Apple"
 let b = typeof(a)
 console.log(b) // string
 console.log(typeof(b)) // string
@@ -113,4 +113,18 @@ let salary = "1000"
 let update = 100
 let newSalary = +salary + update //1s case of converting
 console.log(newSalary)
-let theNewSalary = parseFloat(salary) + update
+let theNewSalary = parseFloat(salary) + update*/
+
+/*20. Write Javascript in a file*/
+
+/* 23 - 24. Coding Challenge Part 1: Discount Price */
+/* let listPrice=100
+let discountPercentage=25
+let discountPrice = (listPrice) - ((listPrice) * discountPercentage/100)
+console.log(discountPrice) */
+
+/* Coding 25 - 26 Area of a circle */
+let radius = 50
+
+let area = Math.round(Math.PI * (Math.pow(radius, 2)))
+console.log(`Area of the circle with radius ${radius} meters is ${area} square meters`)
