@@ -95,11 +95,22 @@ console.log(2 == "2") //true
 console.log(2 === "2") */ //false (check not only value but type)
 
 /*18. Comparison operator*/
-console.log(20>10) //true
+/*console.log(20>10) //true
 console.log(20>50) //false
 console.log(10>=10) //true
 console.log(10>=50) //false
 console.log(25<=12) //false
 console.log(10<=10) //true
 console.log(10!=10) //false
-console.log(10!=20) //false
+console.log(10!=20)*/ //false
+
+/*19. Type conversion*/
+let a = "Apple"
+let b = typeof(a)
+console.log(b) // string
+console.log(typeof(b)) // string
+let salary = "1000"
+let update = 100
+let newSalary = +salary + update //1s case of converting
+console.log(newSalary)
+let theNewSalary = parseFloat(salary) + update
