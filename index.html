@@ -3,10 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Javascript</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h2></h2>
+<div class="container">
+	<label for="">Principal</label>
+	<input type="range" min="1" max="10000" value="50" class="pSlider">
+	<h2 class="pValue"></h2>
+
+	<label for="">Number of years</label>
+	<input type="range" min="1" max="10" value="2" class="nSlider">
+	<h2 class="nValue"></h2>
+
+	<label for="">Rate of interest</label>
+	<input type="range" min="1" max="100" value="1" class="iSlider">
+	<h2 class="iValue"></h2>
+
+	<label for="">Interest calculated: </label>
+	<h2 class="Ivalue">0</h2>
+
+	<label for="">Total amount to be paid: </label>
+	<h2 class="PIvalue">0</h2>
+
+	<label for="">Monthly Installment: </label>
+	<h2 class="EMIvalue">0</h2>
+</div>
 
 <!--<script src="script.js"></script>-->
 <!--<script src="03-conditionals-logical_operators-loops.js"></script>-->
@@ -14,6 +36,6 @@
 <!--<script src="05-functional-programming.js"></script>-->
 <!--<script src="06-dom.js"></script>-->
 <!--<script src="07-oop.js"></script>-->
-<script src="08-async.js"></script>
+<script src="09-interest-calculator.js"></script>
 </body>
 </html>
